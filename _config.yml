@@ -1,0 +1,67 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: liuweqia blog
+SEOTitle: liuweqia的博客 | liuweqia
+email: liuweqia@gmail.com
+description: “python, Django, Java,  jekyll, linux”
+baseurl: "" # the subpath of your site, e.g. /blog
+url: “http://liuweqia.github.io” # the base hostname & protocol for your site
+
+
+# SNS settings
+RSS: false
+# twitter_username: no twitter
+github_username: liuweqia
+zhihu_username: liuweqia
+# weibo_username:
+# facebook_username:
+# linkedin_username:
+
+
+# Build settings
+markdown: kramdown
+encoding: UTF-8
+highlighter: rouge
+# permalink: /:categories/:title.html
+paginate: 10
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+markdown: kramdown
+kramdown:
+  input: GFM  
+
+
+# Duoshuo settings
+# duoshuo_username: 
+# Share component is depend on Comment so we can NOT use share only.
+# duoshuo_share: true                     
+# set to false if you want to use Comment without Sharing
+
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: 
+# Google Analytics
+# ga_track_id: ''            # Format: UA-xxxxxx-xx
+# ga_domain: 
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: “试一试，这里是侧边栏”
+# sidebar-avatar: /img/.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
